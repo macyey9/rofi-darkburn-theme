@@ -1,0 +1,68 @@
+*{
+    font: "Cascadia Code Regular 10";
+    background-color: #101010;
+    text-color: #F0DFAF;
+}
+window{
+    background-color: #101010;
+    border-color: #F0DFAF;
+    border-radius: 8px;
+    height: 340px;
+    width: 30%;
+    border: 2px;
+}
+mainbox{
+    padding: 15px;
+}
+inputbar{
+    children: "";
+    padding: 5px;
+}
+listview{
+    border: 2px ;
+    border-radius: 2px;
+    border-color: #111111;
+}
+prompt{
+    text-color: #F0DFAF;
+}
+entry{
+    text-color: #F0DFAF;
+    placeholder: "";
+}
+element{
+   background-color: red;
+   padding: 6px;
+   border-radius: 3px;
+   margin: 1px;
+}
+element.selected.normal, element.selected.active{
+    background-color: #F0DFAF;
+}
+element-text.selected{
+    text-color: #111111;
+    background-color: #F0DFAF;
+}
+element-text{
+    text-color: #F0DFAF;
+}
+
+element.normal.normal, element.alternate.normal{
+    background-color: #111111;
+    text-color: #F0DFAF;
+    border:1px;
+    border-color: #303030;
+}
+scrollbar{
+    handle-color: #F0DFAF;
+    background-color: #111111;
+    handle-width: 9px;
+
+}
+configuration{
+    display-drun: "Search: ";
+    display-window: "Window: ";
+    display-run: "Run: ";
+    display-ssh: "SSH: ";
+    show-icons: true;
+}
