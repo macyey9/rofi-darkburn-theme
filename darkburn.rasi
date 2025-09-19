@@ -1,11 +1,11 @@
 *{
     font: "Cascadia Code Regular 10";
     background-color: #101010;
-    text-color: #F0DFAF;
+    text-color: #DCDCCC;
 }
 window{
     background-color: #101010;
-    border-color: #F0DFAF;
+    border-color: #DCDCCC;
     border-radius: 8px;
     height: 340px;
     width: 30%;
@@ -24,10 +24,10 @@ listview{
     border-color: #111111;
 }
 prompt{
-    text-color: #F0DFAF;
+    text-color: #DCDCCC;
 }
 entry{
-    text-color: #F0DFAF;
+    text-color: #DCDCCC;
     placeholder: "";
 }
 element{
@@ -37,24 +37,24 @@ element{
    margin: 1px;
 }
 element.selected.normal, element.selected.active{
-    background-color: #F0DFAF;
+    background-color: #DCDCCC;
 }
 element-text.selected{
     text-color: #111111;
-    background-color: #F0DFAF;
+    background-color: #DCDCCC;
 }
 element-text{
-    text-color: #F0DFAF;
+    text-color: #DCDCCC;
 }
 
 element.normal.normal, element.alternate.normal{
     background-color: #111111;
-    text-color: #F0DFAF;
+    text-color: #DCDCCC;
     border:1px;
     border-color: #303030;
 }
 scrollbar{
-    handle-color: #F0DFAF;
+    handle-color: #DCDCCC;
     background-color: #111111;
     handle-width: 9px;
 
